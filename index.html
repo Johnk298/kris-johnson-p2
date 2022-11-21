@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <h4>VOWEL COUNTER</h4>
+        <textarea id="textArea" placeholder="my brown fox jumped over the lazy dog" onkeyup="countVowel(this.value);"></textarea>
+        <p>
+            Vowels <Span id="vowelCount">0</Span>
+        </p>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
